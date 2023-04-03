@@ -1219,7 +1219,6 @@ html{
     .divSectionContainer {
         display: flex;
         justify-content: center;
-        width: 80%;
     }
 
     .section3divContainer {

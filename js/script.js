@@ -35,7 +35,11 @@ scrolltop.onclick = () =>{
   
 };
 
-
+const clickDivX = document.getElementById("divX");
+const hederImg = document.getElementById("hederImg")
+clickDivX.addEventListener("click", function(){
+  hederImg.style.marginTop = "43px";
+});
 
 
 const menu2 = document.querySelector('.liUlcontainer2');
